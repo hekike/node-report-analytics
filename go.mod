@@ -5,6 +5,7 @@ require (
 	github.com/jedib0t/go-pretty v4.2.1+incompatible
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/olivere/elastic/v7 v7.0.3
+	github.com/spf13/cobra v0.0.5
 	github.com/stretchr/testify v1.2.2
 )
 

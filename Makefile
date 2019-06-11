@@ -21,11 +21,11 @@ generate-report:
 
 .PHONY: stats
 stats:
-	$(GOCMD) run cmd/stats/main.go ./example
+	$(GOCMD) run main.go stats -d ./example
 
 .PHONY: elastic
 elastic:
-	$(GOCMD) run cmd/elastic/main.go ./example
+	$(GOCMD) run main.go elastic -d ./example
 
 
 .PHONY: test

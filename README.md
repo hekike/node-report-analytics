@@ -6,9 +6,22 @@ Processes Node.js [Diagnostic Report](https://nodejs.org/api/report.html)(s).
 
 Requires `Node 12.x` or greater.
 
-## Examples
+## Usage
 
-### Example Stats
+```
+Usage:
+  node-report-analytics [command]
+
+Available Commands:
+  elastic     Loads Diagnostics Report(s) to Elasticsearch
+  help        Help about any command
+  stats       Print the stats of Diagnostics Report(s) from a folder
+
+Flags:
+  -h, --help   help for node-report-analytics
+```
+
+### Stats
 
 Print aggregated results on terminal.
 
@@ -27,7 +40,7 @@ Output:
 +---------+-------+-------------------+------------------+------------------+
 ```
 
-### Example Elastic
+### Elastic
 
 Insert reports by hash to Elasticsearch.
 

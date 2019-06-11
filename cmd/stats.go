@@ -14,7 +14,7 @@ func InitStats(rootCmd *cobra.Command) {
 	var dir string
 	var cmd = &cobra.Command{
 		Use:   "stats",
-		Short: "Print the stats of Diagnostics Report(s) from a folder",
+		Short: "Prints the aggregated statistics of Diagnostics Report(s)",
 		Long:  "Collects all Diagnostics Reports from a specific folder and aggregates them by hash.",
 		Run: func(cmd *cobra.Command, args []string) {
 			if dir == "" {

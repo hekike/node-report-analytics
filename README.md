@@ -15,7 +15,7 @@ Usage:
 Available Commands:
   elastic     Loads Diagnostics Report(s) to Elasticsearch
   help        Help about any command
-  stats       Print the stats of Diagnostics Report(s) from a folder
+  stats       Prints the aggregated statistics of Diagnostics Report(s)
 
 Flags:
   -h, --help   help for node-report-analytics

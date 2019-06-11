@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/hekike/node-report-analytics.svg?style=svg&circle-token=7fc6be4be1ab10cc0029a42ef6e349fb5f9eae06)](https://circleci.com/gh/hekike/node-report-analytics)
 
-Processes Node.js [Diagnostic Report](s)(https://nodejs.org/api/report.html).
+Processes Node.js [Diagnostic Report](https://nodejs.org/api/report.html)(s).
 
 Requires `Node 12.x` or greater.
 
